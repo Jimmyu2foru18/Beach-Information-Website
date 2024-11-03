@@ -1,6 +1,7 @@
-# Long Beach & Jones Beach Information Website
+Beach Information Website
 
-A modern, responsive website showcasing information about Long Beach and Jones Beach in Long Island, NY. The website features a unique rotating navigation system and a coastal theme throughout.
+A modern, responsive website showcasing information about Long Beach and Jones Beach in Long Island, NY. 
+The website features a unique rotating navigation system and a coastal theme throughout.
 
 ## Features
 
