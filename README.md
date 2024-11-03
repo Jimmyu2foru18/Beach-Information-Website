@@ -3,9 +3,6 @@
 A modern, interactive website showcasing Long Beach and Jones Beach in Long Island, NY. 
 Features a unique rotating navigation system with a coastal-themed design that provides comprehensive information about both beaches.
 
-## 🌊 Live Demo
-[View Live Demo](https://jimmyu2foru18.github.io/Beach-Information-Website/)
-
 ## ✨ Key Features
 
 ### Innovative Navigation
