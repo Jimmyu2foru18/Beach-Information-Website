@@ -46,13 +46,14 @@ The website features a unique rotating navigation system and a coastal theme thr
 - Google Fonts
 
 ### File Structure 
+```bash
 ├── index.html # Main landing page
 ├── account.html # User account dashboard
 ├── contact.html # Contact information page
 ├── styles.css # Main stylesheet
 ├── script.js # JavaScript functionality
 └── README.md # Project documentation
-
+```
 ### Setup Instructions
 
 1. Clone the repository
