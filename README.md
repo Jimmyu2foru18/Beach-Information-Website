@@ -1,92 +1,134 @@
-Beach Information Website
+# Beach Information Website
 
-A modern, responsive website showcasing information about Long Beach and Jones Beach in Long Island, NY. 
-The website features a unique rotating navigation system and a coastal theme throughout.
+A modern, interactive website showcasing Long Beach and Jones Beach in Long Island, NY. 
+Features a unique rotating navigation system with a coastal-themed design that provides comprehensive information about both beaches.
 
-## Features
+## 🌊 Live Demo
+[View Live Demo](https://jimmyu2foru18.github.io/Beach-Information-Website/)
 
-- **Interactive Navigation**: Rotating menu system with smooth transitions
-- **Responsive Design**: Fully responsive layout that works on all devices
-- **Image Slideshows**: Dynamic image galleries with navigation controls
-- **Three Main Sections**:
-  - Home Page: Beach information and highlights
-  - Account Page: User dashboard and beach pass management
-  - Contact Page: Contact information and inquiry form
+## ✨ Key Features
 
-## Pages
+### Innovative Navigation
+- Rotating menu system with smooth transitions
+- Interactive circular menu trigger
+- Seamless page transitions with animations
 
-### Home Page
-- Beach overviews
-- Image slideshows
-- Feature highlights
+### Dynamic Content
+- Real-time beach information
+- Interactive image slideshows with touch support
+- Responsive beach pass management system
+- Comprehensive contact information system
+
+### Modern Design
+- Coastal-themed interface with wave decorations
+- Glass-morphism effects throughout
+- Responsive grid layouts
+- Card-based information display
+- Custom animations and transitions
+
+## 📱 Pages
+
+### Home Page (`index.html`)
+- Dynamic beach image slideshows
+- Feature highlights and amenities
 - Visitor information
 - Beach hours and activities
+- Transportation details
 
-### Account Page
-- User profile management
-- Beach pass display
+### Account Page (`account.html`)
+- User profile dashboard
+- Digital beach pass display with QR code
 - Activity tracking
-- Preference settings
 - Event notifications
+- Preference management
+- Weather updates
 
-### Contact Page
-- Contact information
-- Location details
+### Contact Page (`contact.html`)
+- Emergency contact information
+- Location details with transport options
 - Operating hours
-- Contact form
-- Emergency information
+- Interactive contact form
+- Beach office locations
 
-## Technical Details
+## 🛠 Technical Stack
 
-### Technologies Used
+### Core Technologies
 - HTML5
-- CSS3
-- JavaScript
-- Font Awesome Icons
+- CSS3 (with modern features like Grid and Flexbox)
+- Vanilla JavaScript (ES6+)
+
+### External Resources
+- Font Awesome 6.0.0 (Icons)
 - Google Fonts
+- Unsplash API (Beach Images)
 
-### File Structure 
+## 📁 Project Structure
 ```bash
-├── index.html # Main landing page
-├── account.html # User account dashboard
-├── contact.html # Contact information page
-├── styles.css # Main stylesheet
-├── script.js # JavaScript functionality
-└── README.md # Project documentation
+├── index.html
+├── account.html
+├── contact.html
+├── script.js
+├── style.css
 ```
-### Setup Instructions
 
-1. Clone the repository
-2. Ensure all files are in the same directory
-3. Open `index.html` in a web browser
+## 🚀 Getting Started
 
-### Browser Compatibility
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
+1. Clone the repository:
+```bash
+git clone https://github.com/jimmyu2foru18/Beach-Information-Website.git
+```
 
-## Design Features
+2. Navigate to project directory:
+```bash
+cd Beach-Information-Website
+```
 
-- Coastal theme with wave decorations
-- Glass-morphism effects
-- Smooth animations and transitions
-- Interactive elements
-- Responsive grid layouts
-- Modern card-based design
+3. Open in browser:
+- Double click `index.html` or
+- Use a local server (recommended):
+  ```bash
+  python -m http.server 8000
+  ```
 
-## Image Credits
+## 💻 Browser Support
 
-Images sourced from Unsplash, featuring:
+- Chrome (Latest)
+- Firefox (Latest)
+- Safari (Latest)
+- Edge (Latest)
+
+## 🎨 Design Features
+
+### Theme Elements
+- Coastal color palette
+- Wave decorations and animations
+- Glass-morphism card effects
+- Responsive image galleries
+- Interactive UI elements
+
+### User Experience
+- Smooth page transitions
+- Intuitive navigation
+- Mobile-first approach
+- Accessible design elements
+
+## 📸 Image Credits
+
+All beach images sourced from Unsplash:
 - Beach landscapes
 - Coastal scenes
 - Sunset views
 - Beach activities
 
-## Maintenance
+## 🔧 Maintenance
 
-To update content:
-1. Image slideshows can be modified in `script.js`
-2. Styles can be adjusted in `styles.css`
-3. Content can be updated in respective HTML files
+### Content Updates
+1. Modify image slideshows in `script.js`
+2. Update styles in `styles.css`
+3. Edit content in HTML files
 
+### Regular Maintenance
+- Check image links
+- Update beach information
+- Verify contact details
+- Test responsive layouts
