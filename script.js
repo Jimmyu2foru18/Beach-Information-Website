@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const content = document.querySelector('.content');
     let isMenuOpen = false;
 
-    // Create and append overlay element
+    // Create and append overlay
     const overlay = document.createElement('div');
     overlay.className = 'menu-overlay';
     document.body.appendChild(overlay);
@@ -40,10 +40,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // Animate and then navigate
             content.style.transform = `rotate(${angle}deg) translateX(${slideDirection}vw)`;
             
-            // Wait for animation to complete before navigating
             setTimeout(() => {
                 window.location.href = targetPage;
-            }, 800); // Match this with your CSS transition time
+            }, 800); //transition time
             
             // Update active states
             navItems.forEach(navItem => navItem.classList.remove('active'));
