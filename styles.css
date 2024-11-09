@@ -157,8 +157,6 @@ p {
     text-align: center;
 }
 
-/* Add these styles to the end of your existing styles.css file */
-
 /* Account Page Styles */
 .account-page {
     max-width: 935px;
@@ -771,7 +769,6 @@ button[type="submit"]:hover {
     background-color: #ff4da6;
 }
 
-/* Add this new overlay style after the navigation styles */
 .menu-overlay {
     position: fixed;
     top: 0;
@@ -782,8 +779,8 @@ button[type="submit"]:hover {
         rgba(0, 0, 0, 0.5), /* Darkest on the left */
         rgba(0, 0, 0, 0.3), 
         rgba(0, 0, 0, 0.1),
-        transparent /* Completely transparent on the right */
-    );
+        transparent);
+    
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
@@ -796,10 +793,8 @@ button[type="submit"]:hover {
     visibility: visible;
 }
 
-/* Update the navigation z-index to be above the overlay */
 .navigation {
     z-index: 900;
-    /* ... keep existing navigation styles ... */
 }
 
 /* Additional Account Page Styles */
@@ -923,7 +918,6 @@ button[type="submit"]:hover {
     color: #ff69b4;
 }
 
-/* Additional styles for beach information page */
 .beach-overview {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     padding: 30px;
@@ -1067,7 +1061,6 @@ section h3 i {
     }
 }
 
-/* Add these slideshow styles to your existing CSS */
 .image-container {
     position: relative;
     overflow: hidden;
@@ -1148,7 +1141,6 @@ section h3 i {
     border-radius: 0 0 15px 15px;
 }
 
-/* Enhanced Contact Page Styles */
 .contact-header {
     position: relative;
     text-align: center;
@@ -1747,8 +1739,6 @@ input:checked + .slider:before {
         flex-direction: column;
     }
 }
-
-/* Add these contact page specific styles to your existing CSS */
 
 /* Contact Page Layout */
 .contact-grid {
